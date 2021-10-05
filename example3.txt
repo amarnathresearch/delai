@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main(){	
+	int i, n=10;
+	for(i=0; i<n;i++){
+	    
+	}
+	return 0;
+}
+
+n=10, 1 time
+i = 0, 1 time
+i < n, n times
+i++, n+1 times; i=i+1
+
+T(n)=1+1+n+ 2*(n+1)
+T(n) = 2+n+2n+2
+T(n) = 4+3n
+
+T(n) = 3n+c
+
+if n = 10000000
+T(n) = 3n+e
+T(n) = 3n
+Time complexity = 3*(n)
+
+Worst Case = O(n) // Optimization
+
+
+
+
+
+

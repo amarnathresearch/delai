@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main(){	
+	int i, j, n=10;
+	for(i=0; i<n;i++){
+	   for(j=0; j<n;j++){
+	  
+	  
+ 	   }  
+	}
+	return 0;
+}
+
+n=10, 1 unit, 1 time
+i =0, 1 unit, 1 time
+i < n, 1 unit, n times
+i++, 2 unit, n+1 times
+j = 0, 1 unit, n times
+j < n, 1 unit, n*n+1 times
+j++, 2 units, (n+1)*(n+1) times?
+
+T(n) = 1+1+n+(n+1)+n+n*n+1+(n+1)*(n+1)
+T(n) = (n+1*n+1) + n + c
+
+T(n) = n^2 + n + c -> Quadratic Equations with Time complexity,
+
+

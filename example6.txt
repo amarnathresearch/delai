@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){	
+	int i, j, k, n=3;
+	for(i=0; i<n-1;i++){
+	   for(j=i; j<n;j++){
+	      for(k=j; k<n; k++){
+	      
+	      } 
+ 	   }  
+	}
+	return 0;
+}
+
+T(n) = n*n*n + n*n + n + c
+T(n) = O(n^3 + n^2 + n) +c
+T(n) = O(n^3).
