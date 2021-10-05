@@ -1,0 +1,14 @@
+Python:
+
+single for loop
+nested for loop
+multiple nested for loops
+
+Constraints:
+
+Best practices
+naming conventions
+
+With time complexities (derivations with graph):
+
+Practice all git commands
